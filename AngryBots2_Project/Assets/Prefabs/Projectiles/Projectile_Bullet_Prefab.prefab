@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 136662206697777224}
   - component: {fileID: 54024267654260008}
   m_Layer: 0
-  m_Name: ProjectileBullet
+  m_Name: Projectile_Bullet_Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48,10 +48,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
-  lifeTime: 3
+  lifeTime: 999
   damageToEnemy: 10
-  hitEnemyParticles: {fileID: 1607228222434220, guid: 3c6a9770554a2499da6dc5e68b870e15, type: 3}
-  hitWallParticles: {fileID: 1294844066107714, guid: 1a0f7225fc3d5408280dfce6c1979b1a, type: 3}
+  hitEnemyParticles: {fileID: 1607228222434220, guid: 3c6a9770554a2499da6dc5e68b870e15,
+    type: 3}
+  hitWallParticles: {fileID: 1294844066107714, guid: 1a0f7225fc3d5408280dfce6c1979b1a,
+    type: 3}
 --- !u!136 &136662206697777224
 CapsuleCollider:
   m_ObjectHideFlags: 0
